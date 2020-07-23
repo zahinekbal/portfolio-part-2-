@@ -514,24 +514,6 @@ img{
     font-family: fantasy;
     margin-top: 5px;
 }
-#footer .social-icon{
-    display: flex;
-    flex-direction: row;
-    margin-top: 0;
-}
-#footer .social-item{
-    height: 50px;
-    width: 50px;
-    margin: 0 12px;
-    top: 6px;
-}
-#footer .social-item img{
-    filter: grayscale(1);
-    transition: .3s ease filter;
-}
-#footer .social-item:hover img{
-    filter: grayscale(0);
-}
 #footer .form{
     display: flex;
     flex-direction: column;
@@ -546,6 +528,20 @@ img{
     background-color: transparent;
     border: 2px solid gray;
     border-radius: 6px;
+}
+.centerdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.centerdiv a{
+    padding: 15px;
+}
+.centerdiv a .fa{
+    font-size: 40px;
+    line-height: 50px;
+    color: palevioletred;
 }
 .er{
     background-color: gray;
